@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <img class="navbar__logo" src="images/logo.svg" alt="logo" />
+      <ul class="navbar__links--desktop">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+
+      <img
+        class="navbar__hamburger"
+        src="images/icon-hamburger.svg"
+        alt="hamburger"
+      />
+
+      <img class="navbar__close" src="images/icon-close.svg" alt="close" />
+      <ul class="navbar__links--mobile">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero">
+      <picture>
+        <source
+          srcset="images/desktop/image-hero.jpg"
+          media="(min-width: 480px)"
+        />
+        <img src="images/mobile/image-hero.jpg" alt="" />
+      </picture>
+
+      <div class="hero-content">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </section>
+
+    <!-- main -->
+    <main>
+      <section class="message-section">
+        <figure class="message-section__image">
+          <picture>
+            <source
+              srcset="images/desktop/image-interactive.jpg"
+              media="(min-width: 480px)"
+            />
+            <img
+              src="images/mobile/image-interactive.jpg"
+              alt="interactive iamge"
+            />
+          </picture>
+        </figure>
+        <div class="message-section__msg">
+          <h2>The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
+
+      <section class="creations-section">
+        <div class="creations-section__header">
+          <h2>Our creations</h2>
+          <button class="creations-section__desktop">See all</button>
+        </div>
+        <div class="creations-section__images">
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-deep-earth.jpg"
+                media="(min-width: 769px)"
+              />
+              <img src="images/mobile/image-deep-earth.jpg" alt="Deep earth" />
+            </picture>
+            <figcaption>Deep earth</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-night-arcade.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-night-arcade.jpg"
+                alt="Night arcade"
+              />
+            </picture>
+            <figcaption>Night arcade</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-soccer-team.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-soccer-team.jpg"
+                alt="Soccer team VR"
+              />
+            </picture>
+            <figcaption>Soccer team VR</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-grid.jpg"
+                media="(min-width: 769px)"
+              />
+              <img src="images/mobile/image-grid.jpg" alt="The grid" />
+            </picture>
+            <figcaption>The grid</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-from-above.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-from-above.jpg"
+                alt="From up above VR"
+              />
+            </picture>
+            <figcaption>From up above VR</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-pocket-borealis.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-pocket-borealis.jpg"
+                alt="Pocket borealis"
+              />
+            </picture>
+            <figcaption>Pocket borealis</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-curiosity.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-curiosity.jpg"
+                alt="The curiosity"
+              />
+            </picture>
+            <figcaption>The curiosity</figcaption>
+          </figure>
+
+          <figure>
+            <picture>
+              <source
+                srcset="images/desktop/image-fisheye.jpg"
+                media="(min-width: 769px)"
+              />
+              <img
+                src="images/mobile/image-fisheye.jpg"
+                alt="Make it fisheye"
+              />
+            </picture>
+            <figcaption>Make it fisheye</figcaption>
+          </figure>
+        </div>
+
+        <button class="creations-section__mobile">See all</button>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer__left">
+        <img src="images/logo.svg" alt="logo" />
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <div class="footer__right">
+        <ul>
+          <li><img src="./images/icon-facebook.svg" alt="Facebook" /></li>
+          <li><img src="./images/icon-twitter.svg" alt="Twitter" /></li>
+          <li><img src="./images/icon-pinterest.svg" alt="Pinterest" /></li>
+          <li><img src="./images/icon-instagram.svg" alt="Instagram" /></li>
+        </ul>
+        <span>© 2021 Loopstudios. All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>
