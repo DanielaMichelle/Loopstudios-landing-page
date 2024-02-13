@@ -22,8 +22,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/DanielaMichelle/Loopstudios-landing-page
+- Live Site URL: https://danielamichelle.github.io/Loopstudios-landing-page/
 
 ### Built with
 
